@@ -1,0 +1,24 @@
+# Nutanix::RoutingPolicyIntentResponse
+
+## Properties
+
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **status** | [**RoutingPolicyDefStatus**](RoutingPolicyDefStatus.md) |  | [optional] |
+| **spec** | [**RoutingPolicy**](RoutingPolicy.md) |  | [optional] |
+| **api_version** | **String** | API Version of the Nutanix v3 API framework. | [default to &#39;3.1.0&#39;] |
+| **metadata** | [**RoutingPolicyMetadata**](RoutingPolicyMetadata.md) |  |  |
+
+## Example
+
+```ruby
+require 'nutanix'
+
+instance = Nutanix::RoutingPolicyIntentResponse.new(
+  status: null,
+  spec: null,
+  api_version: null,
+  metadata: null
+)
+```
+

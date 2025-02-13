@@ -1,0 +1,7 @@
+{
+  "gemName": "nutanix",
+  "gemAuthor": "ManageIQ Developers",
+  "gemSummary": "Nutanix API",
+  "gemDescription": "Ruby gem for Nutanix Intentful API",
+  "gemLicense": "Apache-2.0"
+}

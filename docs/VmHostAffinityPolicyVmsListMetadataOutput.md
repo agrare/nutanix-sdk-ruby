@@ -1,0 +1,24 @@
+# Nutanix::VmHostAffinityPolicyVmsListMetadataOutput
+
+## Properties
+
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **total_matches** | **Integer** | Total matches found. | [optional] |
+| **kind** | **String** | The kind name | [optional][default to &#39;vm&#39;] |
+| **length** | **Integer** | The number of records retrieved relative to the offset. | [optional] |
+| **offset** | **Integer** | Offset from the start of the entity list. | [optional] |
+
+## Example
+
+```ruby
+require 'nutanix'
+
+instance = Nutanix::VmHostAffinityPolicyVmsListMetadataOutput.new(
+  total_matches: null,
+  kind: null,
+  length: null,
+  offset: null
+)
+```
+
